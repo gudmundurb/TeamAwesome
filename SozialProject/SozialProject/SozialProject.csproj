@@ -171,7 +171,7 @@
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\GroupModel.cs" />
     <Compile Include="Models\IdentityModels.cs" />
-    <Compile Include="Models\LaurasDemoClass.cs" />
+    <Compile Include="Models\Im here.cs" />
     <Compile Include="Models\Post .cs" />
     <Compile Include="Models\ProfileModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
