@@ -9,20 +9,20 @@ namespace SozialProject.Models
     public class GroupModel
     {
         [Key]
-        private int groupId;
+        private int groupId { get; set; }
 
         [Key]
-        private int creatorId;
+        private int creatorId { get; set; }
 
 
         [Required]
         [Display(Name = "Group Name")]
-        public string groupName;
+        public string groupName { get; set; }
 
 
         [Required]
         [Display(Name = "Group Description")]
-        public string groupDescription;
+        public string groupDescription { get; set; }
         
 
     }

@@ -8,10 +8,10 @@ namespace SozialProject.Models
     public class Post
     {
         [Key]
-        private int id; //the individual posts' id.
+        public int postID { get; set; }
 
         [Key]
-        private int userID; // the user that made the comment.
+        public int userID { get; set; } // the user that made the comment.
 
         [Required]
         [Display(Name = "Comment text")]

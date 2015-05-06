@@ -13,5 +13,7 @@ namespace SozialProject.Models
             : base("DefaultConnection")
         {
         }
+
+        public System.Data.Entity.DbSet<SozialProject.Models.GameModel> GameModels { get; set; }
     }
 }
