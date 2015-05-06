@@ -15,5 +15,7 @@ namespace SozialProject.Models
         }
 
         public System.Data.Entity.DbSet<SozialProject.Models.GameModel> GameModels { get; set; }
+
+        public System.Data.Entity.DbSet<SozialProject.Models.ProfileModel> ProfileModels { get; set; }
     }
 }

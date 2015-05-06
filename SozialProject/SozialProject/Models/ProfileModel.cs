@@ -9,7 +9,7 @@ namespace SozialProject.Models
     public class ProfileModel
     {
         [Key]
-        protected int userId { get; set; }
+        public int userID { get; set; }
         
         [Required(ErrorMessage="Give me a name")]
         [Display(Name="Name of user")]
