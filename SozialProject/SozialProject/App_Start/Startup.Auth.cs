@@ -2,7 +2,7 @@
 using Microsoft.Owin;
 using Microsoft.Owin.Security.Cookies;
 using Owin;
-
+using Owin.Security.Providers.Steam;
 namespace SozialProject
 {
     public partial class Startup
@@ -33,6 +33,7 @@ namespace SozialProject
             //   appSecret: "");
 
             //app.UseGoogleAuthentication();
+            app.UseSteamAuthentication("246FA7734A47CD2C1F24733C6E55BDB7");
         }
     }
 }
