@@ -10,3 +10,5 @@ namespace SozialProject.Models
         public int bjorn { get; set; }
     }
 }
+//this is a flu comment
+//Gummi I dont like your comment
