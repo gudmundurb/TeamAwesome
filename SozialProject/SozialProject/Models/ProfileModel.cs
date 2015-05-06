@@ -10,7 +10,7 @@ namespace SozialProject.Models
     {
         [Key]
         protected int userId { get; set; }
-
+        //lol test
         [Required(ErrorMessage="Give me a name")]
         [Display(Name="Name of user")]
         public string userName { get; set; }
